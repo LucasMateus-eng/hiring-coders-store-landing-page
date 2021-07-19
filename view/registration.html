@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <!-- Meta tags -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Quicksand:wght@500;600&display=swap" rel="stylesheet">
+ 
+     <!-- Styles -->
+     <link rel="stylesheet" href="../css/registration.css">
+ 
+     <title>Autosonho - Na sua direção ;)</title>
+</head>
+<body>
+    <div id="container">
+        <div class="registration-container">
+            <div class="logo-container">
+                <a href="../index.html" class="logo">
+                    <img src="../images/logo-autosonho.png" alt="Autosonho - Na sua direção ;)">
+                </a>
+            </div>
+            <div class="form-container">
+                <form name="registration" class="registration-form" id="registration">
+                    <div class="input-group">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="phoneNumber">Telefone</label>
+                        <input type="text" name="phoneNumber" id="phoneNumber" required>
+                    </div>
+                    <div class="input-group-checkbox">
+                        <input type="checkbox" name="checkOffer" id="checkOffer">
+                        <span>Aceita receber nossos e-mails promocionais? Somos contra spam!</span>
+                    </div>
+                </form>
+                <div class="form-btn-container">
+                    <button type="submit" form="registration">
+                        <span>Enviar :)</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../src/registration.js"></script>
+</body>
+</html>
